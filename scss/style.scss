@@ -1,0 +1,33 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+
+$indigo: #6610f2;
+$gradient: linear-gradient(180deg, rgba($indigo, 1), rgba($indigo, 0));
+
+body {
+    background-image: url("../images/bg.svg");
+    background-color: $indigo;
+
+}
+
+// .my-bg-img {
+//     width: 170px;
+//     height: 170px;
+//     flex-shrink: 0;
+// }
+
+// .my-bg-img-plane {
+//     background-image: url("../images/plane.svg");
+//     background-size: contain;
+// }
+
+#loaded {
+    margin-top: 100px;
+    color: white;
+}
